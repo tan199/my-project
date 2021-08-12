@@ -1,0 +1,322 @@
+
+nav{
+    background-color: transparent;
+    position: absolute;
+    height: 70px;
+}
+nav .container-fluid .navbar-brand{
+    margin-left: 260px;
+    font-size: 40px;
+    color: green;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+nav .container-fluid #navbarSupportedContent{
+    margin-left: 200px;
+}
+nav .container-fluid #navbarSupportedContent ul li{
+    margin: auto 20px;
+}
+nav .container-fluid #navbarSupportedContent ul li a{
+    color: green;
+}
+.hero {
+    background-image: url("2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.hero .col-1{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    margin-top: 14%;
+    text-align: center;
+}
+.hero .col-1 h1{
+    color: green; 
+    font-size: 50px;  
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+.hero .col-1 span{
+    color: green;   
+    margin-bottom: 10px; 
+}
+.hero .col-1 button{
+     background-color: transparent;
+     border: 1px solid green;
+     margin-top: 20px;
+     height: 50px;
+}
+.hero .col-1 button a{
+     padding: 15px 20px;
+     text-decoration: none;
+     font-size: 17px;
+     font-family: Arial, Helvetica, sans-serif;
+     color: green;
+     text-transform: uppercase;
+}
+.hero .col-1 button:hover{
+    background-color: green;
+}
+.hero .col-1 button a:hover{
+    color: white;
+}
+.row2 .row{
+    width: 75%;
+    margin: auto;
+}
+.row2 .row .col{
+    margin: 50px 0px;
+    text-align: center;
+    width: 320px;
+    height: auto;
+}
+.row2 .row .col img{
+    width: 300px;
+    padding: 10px 0px;
+    height: 300px;
+    position: relative;
+}
+.row2 .row .col span{
+    font-size: 12px;
+    color: green;
+}
+.row2 .row .col p{
+    font-size: 30px;
+    color: green;
+    font-family: italic;
+}
+.row2 .row .col hr{
+    width: 90px;
+    color: green;
+    margin: 10px auto;
+    text-align: center;
+}
+.row3 .conta1{
+    width: 75%;
+    margin: auto;
+    background-color: rgb(2, 78, 2);
+    height: 300px;
+    position: relative;
+}
+.row3 .conta1 h1{
+    color: white;
+    margin: 0px auto 20px 50px;
+    padding-top: 50px;
+}
+.row3 .conta1 p{
+    color: white;
+    font-size: 15px;
+    width: 500px;
+    margin: 20px auto;
+    padding: auto 20px;
+}
+.row3 .conta2 img{
+    margin-top: -100px;
+    width: 100%;
+    height: auto;
+}
+
+.back{
+    background-image: url("5.jpg");
+    background-attachment: fixed;
+}
+.conta{
+    background-color: rgba(3, 73, 3, 0.712);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactInfo{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.conta .contactInfo h1{
+    color: white;
+    font-weight: 300;
+    font-size: 60px;
+}
+.conta .contactInfo h2{
+    color: white;
+    font-size: 30px;
+}
+.contactInfo h3{
+    color: white;
+    font-size: 20px;
+    position: relative;
+}
+.conta .contactInfo hr{
+    width: 50px;
+    left: 100px;
+    position: absolute;
+}
+.conta .contactInfo .box{
+    position: relative;
+    padding: 20px 0px;
+    display: flex;
+    height: 20px;
+}
+.conta .contactInfo .box .icon{
+    color: white;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 22px;
+    position: relative;
+    padding-top: 0px;
+}
+
+.contactform{
+    width: 40%;
+    padding: 40px;
+    background-color: white;
+}
+
+.contactform h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+.contactform .inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactform .inputbox input,
+.contactform .inputbox textarea{
+    width: 100%;
+    padding: 5px 0px;
+    font-size: 16px;
+    margin: 10px 0px;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+.contactform .inputbox span{
+    position: absolute;
+    left: 0;
+    color: #666;
+}
+.contactform .inputbox input[type="submit"]{
+    width: 100px;
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+#footer{
+    background-color: rgb(4, 100, 4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+#footer i{
+    margin: 20px;
+    font-size: 30px;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    padding: 10px;
+}
+#footer i:hover{
+    border: 1px solid white;
+    color: black;
+    background-color: white;
+}
+
+
+@media (max-width:1350px) {
+    .hero{
+        height: auto;
+        width: 100%;
+    }
+    nav .container-fluid .navbar-brand{
+        margin-left: 100px;
+        
+    }
+    
+    .row2 .row{
+        width: auto;
+        margin: auto;
+    }
+    .row2 .row img{
+        width: 200px;
+        margin: 0px;
+        padding: 0px;
+        height: auto;
+    }
+    
+}
+@media (max-width:990px) {
+    .hero .col-1{
+        margin: 50px 0px;
+        width: auto;
+        height: auto;
+    }
+    nav .container-fluid #navbarSupportedContent ul{
+        background-color: green;
+        width: 100%;
+        text-align: center;
+    }
+    nav .container-fluid #navbarSupportedContent ul li {
+        color: white;
+    }
+    nav .container-fluid #navbarSupportedContent ul li a{
+        color: white;
+    }
+}
+@media (max-width:600px) {
+    .conta{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    .conta .contactform{
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:570px){
+    body{
+        width: fit-content;
+    }
+    .row3 .conta1{
+        width: auto;
+        margin: auto auto 100px auto;
+        height: auto;
+        
+    }
+    .row3 .conta1 p{
+        height: auto;
+        width: 500px;
+        padding: auto 30px;
+    }
+    
+}
+@media (max-width:300px){
+    body{
+        width: fit-content;
+    }
+    .hero{
+        width: 100%;
+    }
+    nav .container-fluid .navbar-brand{
+        margin-left: 40px;
+        
+    }
+    .row2 .row .col img{
+        width: 200px;
+        height: auto;
+        
+    }
+}
